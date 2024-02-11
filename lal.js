@@ -58,7 +58,7 @@ function updateButtonText() {
       question.innerHTML = 'Are you 100% sure???';
       break;
     case 2:
-      question.innerHTML = 'So... wanna go out somewhere with me?';
+      question.innerHTML = 'Wanna go out somewhere with me?';
       break;
 
     default:
