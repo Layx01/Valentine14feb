@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
 /*--------------------*/
 *{padding: 0;margin: 0;border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
@@ -18,7 +21,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 body {
     background: #bb0ef5;
     /*background: #8F00FF;*/
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: 'Protest Riot', sans-serif;*/
+    font-family: 'Original Surfer', sans-serif;
 }
 
 .wrapper {
@@ -32,6 +36,8 @@ body {
 .container {
     background: white;
     max-width: 800px;
+    height: fit-content;
+    flex-direction: row;
     border-radius: 20px;
     overflow: hidden;
     align-items: center;
@@ -90,8 +96,8 @@ img {
 
 .intro h1{
     text-align: center;
-    font-size: 42px;
-    font-weight: 500;
+    font-size: 38px;
+    font-weight: 400;
 }
 
 .questions {
@@ -105,6 +111,7 @@ img {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: 'Overlock SC', sans-serif;
 }
 
 .btn {
