@@ -96,12 +96,32 @@ img {
 
 .intro h1{
     text-align: center;
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 400;
 }
 
 .questions {
     margin: 40px auto 40px auto;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
+    -webkit-animation: pulsate 3.2s linear infinite;
+    animation: pulsate 3.2s linear infinite;
+}
+
+@keyframes pulsate{50%{color:#fff;text-shadow:0 -1px #e385fd,0 0 5px #bb0ef5,0 0 8px#bf00ff;}
+}
+
+button span {
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
+    -webkit-animation: pulsate-button 0.5s linear infinite;
+    animation: pulsate-button 0.5s linear infinite;
+}
+
+@keyframes pulsate-button{50%{color:#fff;text-shadow:0 -1px #000,0 0 5px #fff,0 0 8px#fff;}
 }
 
 .btn-answer {
@@ -137,6 +157,8 @@ button {
     flex-wrap: wrap;
 }
 
+
+
 button:nth-child(1) {
     margin-left: -200px;
     background: #8F00FF;
@@ -150,7 +172,8 @@ button:nth-child(2) {
 
 button p {
     margin-bottom: 7px;
-}
+} 
+
 /* Media Queries for responsiveness */
 @media screen and (max-width: 600px) {
     .container {
